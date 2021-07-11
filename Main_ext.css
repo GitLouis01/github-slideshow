@@ -1,0 +1,240 @@
+	html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *
+  {
+  	margin: 0;
+  	padding: 0;
+  }
+
+ body{
+  	margin: 0;
+  	padding: 0 ;
+	background-image: url(Background.png);
+  	background-color: #02ebc4;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+  	width: auto;
+  	height: auto; 
+  	z-index: -1;
+  }
+  
+/*Header Video*/
+iframe{
+ position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	min-width: 100%;
+  	min-height: 100%;
+  	width: auto;
+  	height: auto; 
+  	z-index: -1;
+}
+/*Slide Container*/
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+	padding: 0;
+	position: relative;
+	margin-top: 26.4%;
+	z-index: -1;
+  }
+/*Announcement Bar Function*/
+
+#Announcement-Bar {
+ text-align: center;
+  background-color: #fffaed;
+}	  
+
+/*Header*/
+
+
+header{
+background-color: #bbf76d;	
+padding: 5px;
+position: sticky;
+}
+
+div.container{
+	text-align: center;
+display: block;
+margin-left: 50px;
+margin-right: auto;	
+position: relative;
+}
+
+
+/*Social Media Bar*/
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-70.8%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.instagram {
+  background: #dc79f7;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+/*Dropbutton Function*/
+
+#Storage .btn{
+	background-color: rgb(163, 0, 0);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+	float: left;
+	position: relative;
+}
+
+#Storage .btn{
+	margin-left: auto;
+margin-right: auto;	
+bottom: 70px;
+}
+
+#Storage:hover .btn{background-color:red;
+border:none;}
+
+.btn {
+    background-color: rgb(163, 0, 0);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+	float: right;
+	position: relative;
+  }
+
+
+.btn{
+	margin-left: auto;
+margin-right: auto;	
+bottom: 70px;
+}
+
+  .btn-primary:hover {
+    background-color: #8a0101;
+}
+
+  .dropdown {
+    display: block;
+	float:right;
+  }
+  
+  
+  .dropdown-menu {
+    display: none;
+    background-color: #ff2962;
+	top: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+	font-size:20px;
+	text-align: center;
+  }
+  
+  
+  .dropdown-menu a {
+    
+	 min-width: auto;
+	margin-left: auto;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .btn {background-color:red;}
+  .dropdown-menu a:hover {background-color: rgb(204, 33, 78);}
+
+/*Header-Slide Function*/
+
+
+/*For Direct Callout*/
+
+h2{
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;	
+position: relative;
+top: 180px;
+ color: white;
+font-size:80px;
+}
+h6{
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;	
+position: relative;
+top: 180px;
+ color: white;
+ z-index: 2;
+}
+
+  
+/*Footer*/ 
+  .footer{
+	text-align: center;
+	color: #027a66;
+	font-size: 15px;
+}
+
+a{
+
+color: white;
+
+
+	
+}
+a #Bottom{
+top: 100px;	
+text-decoration: none;
+}
+
+h1{
+text-align: center;
+display: block;
+margin-left: 50px;
+margin-right: auto;	
+position: relative;
+top: 180px;
+ color: white;
+font-size:90px;
+}
